@@ -1,0 +1,28 @@
+{
+  "name": "custom-error-page",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project, you have been provided with a set of static web assets. Your task is to implement an HTTP server to serve up these assets when they are requested. A request to a specific asset should return that asset (ex. index.html). A request to a non-existent asset should result in the user seeing the 404.html page. This exercise will be completed in class.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "lint:fix": "./node_modules/.bin/eslint -fix --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackeducation/custom-error-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stackeducation/custom-error-page/issues"
+  },
+  "homepage": "https://github.com/stackeducation/custom-error-page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}
